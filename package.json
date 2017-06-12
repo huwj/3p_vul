@@ -1,0 +1,33 @@
+{
+  "name": "3p_vul",
+  "version": "1.0.0",
+  "description": "RESTful 3p vulnerability assessment tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error:no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huwj/3p_vul.git"
+  },
+  "keywords": [
+    "RESTful",
+    "3p",
+    "Risk",
+    "Security",
+    "Vulnerability"
+  ],
+  "author": "Wenjin Hu",
+  "license": "GLP 3.0",
+  "bugs": {
+    "url": "https://github.com/huwj/3p_vul/issues"
+  },
+  "homepage": "https://github.com/huwj/3p_vul#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5"
+  }
+}
